@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
             setContentView(it.root)
         }
 
-        loadFirstFragment()
-        loadSecondFragment()
+       /* loadFirstFragment()
+        loadSecondFragment()*/
     }
 
-    private fun loadFirstFragment() {
+    /*private fun loadFirstFragment() {
         supportFragmentManager.beginTransaction().add(
             binding.frag1.id,
             FirstFragment.newInstance(),
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             "2nd Fragment"
         ).commit()
     }
-
+*/
 
 
 

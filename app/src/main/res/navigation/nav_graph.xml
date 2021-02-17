@@ -25,7 +25,7 @@
         <argument
             android:name="textFromFrag1"
             app:argType="string"
-            android:defaultValue='""' />
+            android:defaultValue='example' />
 
 
     </fragment>
@@ -37,7 +37,7 @@
         <argument
             android:name="textFromFrag2"
             app:argType="string"
-            android:defaultValue='""' />
+            android:defaultValue='example' />
     </fragment>
     <activity
         android:id="@+id/mainActivity"
